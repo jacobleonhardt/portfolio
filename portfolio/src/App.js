@@ -1,14 +1,22 @@
 import React from 'react';
+import { BrowserRouter, Switch, Router } from 'react-router-dom';
 import Navigation from './components/global/navigation.js'
 import Splash from './components/splash/splash.js'
 import './index.css';
 
 function App() {
   return (
-    <div className="content">
-      <Navigation />
+    <BrowserRouter>
       <Splash />
-    </div>
+      {/* <Navigation />
+      <Switch>
+        <Router path="/" exact={true}>
+          <div className="content">
+            <Splash />
+          </div>
+        </Router>
+      </Switch> */}
+    </BrowserRouter>
   );
 }
 

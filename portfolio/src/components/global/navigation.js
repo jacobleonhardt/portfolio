@@ -5,7 +5,7 @@ const Navigation = () => {
 
     return (
         <nav>
-            <NavLink></NavLink>
+            <NavLink to='/'></NavLink>
         </nav>
     )
 }

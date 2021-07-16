@@ -9,7 +9,21 @@ body {
 
 
 
-h1 {
+h1, h2, h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
+}
+
+
+h2 {
+  font-size: 1.25em;
+}
+
+
+.blue {
+  color: #00315C;
+}
+
+.orange {
+  color: #F35D06;
 }
