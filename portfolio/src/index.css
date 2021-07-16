@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.logo {
-  max-width: 200px;
+
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
 }
