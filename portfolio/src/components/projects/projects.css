@@ -1,0 +1,26 @@
+#projects {
+    background: linear-gradient(#F59F05, #921210);
+    padding: 5%;
+    color: #fff;
+}
+
+#projects h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img.project-logo {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 5%;
+    padding: 1%;
+    margin-bottom: 20px;
+    background: #045175;
+}
