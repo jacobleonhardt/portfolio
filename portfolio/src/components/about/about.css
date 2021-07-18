@@ -1,0 +1,32 @@
+#about {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    background-color: #00315C;
+    color: #fff;
+}
+
+#about img {
+    max-width: 250px;
+    border: 2px solid #fff;
+    border-radius: 150px;
+}
+
+.pic {
+    display: inline-block;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.copy {
+    display: inline-block;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    #about {
+        flex-wrap: wrap;
+    }
+}
