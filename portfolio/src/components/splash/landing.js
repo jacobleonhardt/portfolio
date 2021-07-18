@@ -1,19 +1,28 @@
 import React from 'react'
-import leonhardtLogo from '../../photos/jleonhardt-portfolio-logo.png';
+import Nav from '../global/nav.js'
+import Greeting from '../greeting/greeting'
 import About from '../about/about.js'
-import Projects from '../projects/projects.js'
+import Projects from '../projects/pieflix.js'
+import Pieflix from '../projects/pieflix.js'
+import Robinhoop from '../projects/robinhoop.js'
+import AskMeeple from '../projects/ask-meeple.js'
+import VerticleExplorer from '../projects/verticle-explorer.js'
 import './landing.css'
 
 const Landing = () => {
+
     return (
-        <div className='landing'>
-            <About />
-            <Projects />
-            <img src={leonhardtLogo} className="logo" alt="Jacob Leonhardt logo" />
-            <h1>Jacob Leonhardt</h1>
-            <h2>A Creative Full-Stack Developer</h2>
-            <div className="space med"></div>
-            <a href="/#about" className="icon-link"><ion-icon name="chevron-down-outline"></ion-icon></a>
+        <div id="content">
+            <Nav />
+            <div className='landing'>
+                <Greeting />
+                <About />
+                <Projects />
+                <Pieflix />
+                <Robinhoop />
+                <AskMeeple />
+                <VerticleExplorer />
+            </div>
         </div>
     )
 }
