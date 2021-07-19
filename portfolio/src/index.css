@@ -1,10 +1,20 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
+  display: block;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   font-family: -apple-system, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  /* -webkit-font-smoothing: antialiased; */
-  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -70,4 +80,13 @@ a.icon-link:hover {
 
 .orange {
   color: #F35D06;
+}
+
+#content {
+  text-align: center;
+  overflow: hidden;
+  background: url('./photos/beach-background.jpg');
+  background-size: cover;
+  background-position: center center;
+
 }

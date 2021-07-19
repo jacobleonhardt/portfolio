@@ -1,37 +1,40 @@
-#content {
-    width: 100vw;
-    text-align: center;
-    overflow: hidden;
-}
-
 .landing {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    overflow: hidden;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    background: url('../../photos/beach-background.jpg');
-    background-size: cover;
-    background-position: center center;
-    padding: 8%;
+    padding: 4%;
     height: 100%;
     height: auto;
     color: #fff;
 }
 
+.landing::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 5px;
+}
+
+.landing::-webkit-scrollbar-thumb {
+    background: #F35D06;
+    border-radius: 10px;
+}
+
+.landing::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 .card {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    width: 500px;
-    height: 500px;
-    margin: 0 50px;
+    display: block;
+    /* width: 900px; */
+    /* height: 80%; */
+    margin-right: 10%;
+    background: rgb(15, 4, 6);
     scroll-snap-align: start;
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
-
 }

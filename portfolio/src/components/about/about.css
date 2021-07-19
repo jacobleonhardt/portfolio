@@ -2,10 +2,11 @@
     padding: 5%;
     background-color: #00315C;
     color: #fff;
+    text-align: left;
 }
 
 #about img {
-    max-width: 250px;
+    max-width: 200px;
     border: 2px solid #fff;
     border-radius: 150px;
 }
