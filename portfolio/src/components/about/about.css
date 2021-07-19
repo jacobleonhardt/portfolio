@@ -1,12 +1,18 @@
 #about {
-    padding: 5%;
+    padding: 4%;
+    min-width: 350px;
+    width: 100%;
     background-color: #00315C;
     color: #fff;
-    text-align: left;
 }
 
 #about img {
+    margin: 0 auto;
     max-width: 200px;
     border: 2px solid #fff;
     border-radius: 150px;
+}
+
+#about p {
+    text-align: left;
 }

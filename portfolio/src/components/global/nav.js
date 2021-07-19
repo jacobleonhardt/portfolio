@@ -5,12 +5,12 @@ import './nav.css'
 const Nav = () => {
     return (
         <div id="navbar">
-            <Link to="#">About</Link>
-            <Link to="#">Pieflix</Link>
-            <Link to="#">Robinhoop</Link>
-            <Link to="#">Ask Meeple</Link>
-            <Link to="#">Verticle Explorer</Link>
-            <Link to="#">Get in Touch</Link>
+            <Link to="/#about">About</Link>
+            <Link to="/#pieflix">Pieflix</Link>
+            <Link to="/#robinhoop">Robinhoop</Link>
+            <Link to="/#ask-meeple">Ask Meeple</Link>
+            <Link to="/#verticle-explorer">Verticle Explorer</Link>
+            <Link to="/#contact">Get in Touch</Link>
         </div>
     )
 }

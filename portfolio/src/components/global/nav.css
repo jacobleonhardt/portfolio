@@ -1,0 +1,11 @@
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 2%;
+}

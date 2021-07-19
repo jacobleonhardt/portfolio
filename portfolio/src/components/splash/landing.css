@@ -5,7 +5,7 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    padding: 4%;
+    padding: 2% 0;
     height: 100%;
     height: auto;
     color: #fff;
@@ -27,12 +27,11 @@
 }
 
 .card {
-    position: relative;
-    display: block;
+    /* position: relative; */
+    /* display: block; */
     /* width: 900px; */
-    /* height: 80%; */
-    margin-right: 10%;
-    background: rgb(15, 4, 6);
+    max-height: 800px;
+    margin: 0 5%;
     scroll-snap-align: start;
     transform-origin: center center;
     transform: scale(1);
