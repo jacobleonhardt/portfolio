@@ -5,7 +5,7 @@ import './projects.css'
 
 const Robinhoop = () => {
     return (
-        <div id="robinhoop">
+        <div id="robinhoop" className="card">
             <div className="one">
                 <img src={robinhoopLogo} alt="" className="project-logo"/>
             </div>

@@ -89,7 +89,6 @@ a.icon-link:hover {
   color: #F35D06;
 }
 
-/* #content {
-  text-align: center;
-  overflow: hidden;
-} */
+#content {
+  padding: 3%;
+}
