@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2%;
   margin: 0;
   font-family: -apple-system, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -49,26 +50,29 @@ p {
   padding: 25px;
 }
 
-a.icon-link {
+#arrow.icon-link {
   transition: .5s;
+  width: 50px;
   display: flex;
   align-items: center;
-  font-size: 32px;
-  color: #fff;
   padding: 3px;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 25px;
-  animation: fadeInDown 5s;
+  margin: 0 auto;
+  font-size: 40px;
+  color: #fff;
+  background: transparent;
+  animation: fadeInLeft 5s;
 }
 
-@keyframes fadeInDown {
+@keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateX(-20px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
 }
 

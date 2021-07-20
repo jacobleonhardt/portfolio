@@ -16,7 +16,6 @@ const Landing = () => {
             <Nav />
             <div className='slider'>
                 <div className='slides'>
-                    <div id='arrow' className="icon-link"><ion-icon name="chevron-forward-circle-outline"></ion-icon></div>
                     <Greeting />
                     <About />
                     <Pieflix />

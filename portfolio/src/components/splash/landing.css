@@ -30,6 +30,8 @@
 
 .slides > div {
     scroll-snap-align: start;
+    min-width: 350px;
+    width: 100vw;
     padding: 2%;
     margin: 2% 5%;
     border-radius: 10px;
@@ -40,4 +42,16 @@
     position: relative;
 
     display: block;
+}
+
+.slides div > a {
+    padding: 8px;
+    border-radius: 25px;
+    color: #fff;
+    background: #F35D06;
+    text-decoration: none;
+  }
+
+.slides div > a:hover {
+    background: #921210;
 }
