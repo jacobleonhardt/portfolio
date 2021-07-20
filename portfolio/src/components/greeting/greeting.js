@@ -9,7 +9,6 @@ const Greeting = () => {
             <h1>Jacob Leonhardt</h1>
             <h2>A Creative Full-Stack Developer</h2>
             <div className="space med"></div>
-            <a href="/#about" className="icon-link"><ion-icon name="chevron-down-outline"></ion-icon></a>
         </div>
     )
 }

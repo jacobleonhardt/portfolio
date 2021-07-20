@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   overflow: hidden;
@@ -7,7 +11,7 @@ html, body {
 }
 
 body {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -71,7 +75,6 @@ a.icon-link {
 a.icon-link:hover {
   transition: .5s;
   background-color: #F35D06;
-  border: 1px solid #F35D06;
 }
 
 .blue {
@@ -82,7 +85,7 @@ a.icon-link:hover {
   color: #F35D06;
 }
 
-#content {
+/* #content {
   text-align: center;
   overflow: hidden;
-}
+} */
