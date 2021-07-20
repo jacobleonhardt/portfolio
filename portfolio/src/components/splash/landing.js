@@ -14,14 +14,15 @@ const Landing = () => {
     return (
         <div id="content">
             <Nav />
-            <div className='landing'>
-                <Greeting />
-                <About />
-                <Projects />
-                <Pieflix />
-                <Robinhoop />
-                <AskMeeple />
-                <VerticleExplorer />
+            <div className='slider'>
+                <div className='slides'>
+                    <Greeting />
+                    <About />
+                    <Pieflix />
+                    <Robinhoop />
+                    <AskMeeple />
+                    <VerticleExplorer />
+                </div>
             </div>
         </div>
     )

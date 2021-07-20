@@ -9,3 +9,7 @@
     text-transform: uppercase;
     margin: 0 2%;
 }
+
+#navbar a:hover, #navbar a:active {
+    color: #F35D06;
+}

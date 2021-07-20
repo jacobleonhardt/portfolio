@@ -1,4 +1,4 @@
-.landing {
+.slider {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -13,25 +13,27 @@
     color: #fff;
 }
 
-.landing::-webkit-scrollbar {
+.slider::-webkit-scrollbar {
     width: 10px;
     height: 10px;
     margin-bottom: 5px;
 }
 
-.landing::-webkit-scrollbar-thumb {
+.slider::-webkit-scrollbar-thumb {
     background: #F35D06;
     border-radius: 10px;
 }
 
-.landing::-webkit-scrollbar-track {
+.slider::-webkit-scrollbar-track {
     background: transparent;
 }
 
-.card {
-    /* position: relative; */
-    /* display: block; */
+.slides {
+    position: relative;
+    display: block;
     /* width: 900px; */
+    background-color: #045175;
+    padding: 2%;
     max-height: 800px;
     margin: 0 5%;
     scroll-snap-align: start;

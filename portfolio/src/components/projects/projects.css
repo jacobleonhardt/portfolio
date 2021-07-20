@@ -15,7 +15,6 @@ img.project-logo {
     margin: 0 auto;
 }
 
-
 .project {
     display: grid;
     grid-template-columns: 1fr 2fr;

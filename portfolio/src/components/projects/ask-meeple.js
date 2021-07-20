@@ -5,7 +5,7 @@ import './projects.css'
 
 const AskMeeple = () => {
     return (
-        <div className="card" id="ask-meeple">
+        <div id="ask-meeple">
             <div className="one">
                 <img src={askMeepleLogo} alt="" className="project-logo"/>
             </div>

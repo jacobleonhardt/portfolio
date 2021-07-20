@@ -1,6 +1,9 @@
 html, body {
   height: 100%;
   overflow: hidden;
+  background: url('./photos/beach-background.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 body {
@@ -11,10 +14,6 @@ body {
   font-family: -apple-system, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -39,6 +38,7 @@ h4 {
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em;
+  text-align: left;
 }
 
 .space.med {
@@ -85,8 +85,4 @@ a.icon-link:hover {
 #content {
   text-align: center;
   overflow: hidden;
-  background: url('./photos/beach-background.jpg');
-  background-size: cover;
-  background-position: center center;
-
 }
