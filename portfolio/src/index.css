@@ -69,3 +69,19 @@ a.icon-link:hover {
 .orange {
   color: #F35D06;
 }
+
+button {
+  transition: .75s;
+  color: #fff;
+  background: #F35D06;
+  font-size: 1.25em;
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px 30px;
+  border: 0px;
+  border-radius: 30px;
+}
+
+button:hover {
+  background: #045175;
+  transition: .75s;
+}
