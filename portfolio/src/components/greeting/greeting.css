@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
     background: linear-gradient(200deg, #921210, #F35D06);
     width: 100vw;
     height: 100vh;
@@ -12,5 +12,5 @@
 
 .logo {
     max-width: 250px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }

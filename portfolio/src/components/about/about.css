@@ -1,13 +1,25 @@
 #about {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
+    background: linear-gradient(270deg, #921210, #045175);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about .left, #about .right {
+    width: 46%;
+    padding: 2%;
 }
 
 #about img {
     margin: 0 auto;
-    max-width: 200px;
+    max-width: 350px;
     border: 2px solid #fff;
-    border-radius: 150px;
+    border-radius: 50%;
 }
 
 #about p {

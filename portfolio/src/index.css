@@ -11,13 +11,12 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-
-h2 {
-  font-size: 1.4em;
+h1 {
+  font-size: 2.25em;
 }
 
-h3 {
-  font-size: 1.6em;
+h2, h3 {
+  font-size: 1.75em;
 }
 
 h4 {
@@ -26,7 +25,7 @@ h4 {
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.15em;
+  font-size: 1.25em;
   text-align: left;
 }
 
