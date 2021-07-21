@@ -1,0 +1,16 @@
+.project {
+    padding: 8%;
+    color: #fff;
+}
+
+.project-logo {
+    text-align: center;
+    max-width: 250px;
+}
+
+#pieflix {
+    background: linear-gradient(rgba(243,93,6,.8), rgba(243,93,6,.8)),
+                                url('../../../photos/pieflix-homepage.jpg');
+    background-size: cover;
+    background-position: center center;
+}

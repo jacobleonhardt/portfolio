@@ -1,14 +1,18 @@
 #projects {
-    grid-column-gap: 5%;
-    padding: 1%;
-    margin-bottom: 20px;
-    color: #fff;
-    background: #045175;
+    padding: 0;
+    /* margin-bottom: 20px; */
+    /* color: #fff;
+    background: linear-gradient(45deg, #F35D06, #F59F05); */
+}
+
+/* #project-cards {
+
 }
 
 #projects h2 {
     text-align: center;
-}
+    margin-bottom: 2%;
+} */
 
 img.project-logo {
     max-width: 200px;
