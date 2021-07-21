@@ -5,7 +5,7 @@ import './projects.css'
 
 const Pieflix = () => {
     return (
-        <div id="pieflix">
+        <div id="pieflix" className="card">
             <div className="one">
                 <img src={pieflixLogo} alt="" className="project-logo"/>
             </div>

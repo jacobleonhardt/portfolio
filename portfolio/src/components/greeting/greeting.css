@@ -1,8 +1,16 @@
 #greeting {
-    background: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(200deg, #921210, #F35D06);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo {
     max-width: 250px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
