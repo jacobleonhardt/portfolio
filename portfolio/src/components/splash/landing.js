@@ -12,19 +12,17 @@ import './landing.css'
 const Landing = () => {
 
     return (
-        <div id="content">
+        <>
             <Nav />
-            <div className='slider'>
-                <div className='slides'>
-                    <Greeting />
-                    <About />
-                    <Pieflix />
-                    <Robinhoop />
-                    <AskMeeple />
-                    <VerticleExplorer />
-                </div>
+            <div id="content">
+                <Greeting />
+                <About />
+                <Pieflix />
+                <Robinhoop />
+                <AskMeeple />
+                <VerticleExplorer />
             </div>
-        </div>
+        </>
     )
 }
 

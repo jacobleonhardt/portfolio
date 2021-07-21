@@ -1,20 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  overflow: hidden;
-  background: url('./photos/beach-background.jpg');
-  background-size: cover;
-  background-position: center center;
-}
-
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2%;
   margin: 0;
   font-family: -apple-system, 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -42,7 +26,7 @@ h4 {
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.15em;
   text-align: left;
 }
 
@@ -56,10 +40,8 @@ p {
   display: flex;
   align-items: center;
   padding: 3px;
-  border: 2px solid #fff;
-  border-radius: 25px;
   margin: 0 auto;
-  font-size: 40px;
+  font-size: 62px;
   color: #fff;
   background: transparent;
   animation: fadeInLeft 5s;
@@ -68,11 +50,11 @@ p {
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-20px);
+    transform: translateY(-20px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateY(0px);
   }
 }
 
@@ -87,8 +69,4 @@ a.icon-link:hover {
 
 .orange {
   color: #F35D06;
-}
-
-#content {
-  padding: 0 3%;
 }

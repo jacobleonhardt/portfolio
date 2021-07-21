@@ -1,5 +1,13 @@
 #greeting {
-    background: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-self: center;
+    background: linear-gradient(200deg, #921210, #F35D06);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo {
