@@ -15,7 +15,7 @@ const About = () => {
                 <img src={headshot} alt="Jacob Leonhardt headshot"/>
             </div>
             <div className="right">
-                <h3>About</h3>
+                <h2>About</h2>
                 <p>I'm an enthusiastic developer of creative projects. Whether coding an applications, writing stories, or making board games, bringing something from concept to reality is an exciting process! What I love about JavaScript, React, Redux, and CSS, is that they allow developers to do this is a more visual way. Writing backend or frontend code that renders data on screen, then designing the presentation of that data is a creative adventure. And like all adventures, a few obstacles makes the story a little more interesting.</p>
                 <p>On a personal note, I'm a Christian and nerd who drinks a lot of coffee. Some of my favorite things are British Literature, Rend Collective, Yacht Rock, Nintendo, and sarcasm.</p>
                 <span>
@@ -24,7 +24,7 @@ const About = () => {
                 </span>
             </div>
             <div className="full">
-            <h4>Skills</h4>
+            <h3>Skills</h3>
                 <div id="additional">
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-react-original colored"></i>

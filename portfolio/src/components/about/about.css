@@ -39,6 +39,10 @@
     border-radius: 50%;
 }
 
+#about h3 {
+    margin-bottom: 2%;
+}
+
 #about p {
     text-align: left;
 }
