@@ -25,3 +25,13 @@
 #about p {
     text-align: left;
 }
+
+#additional {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#additional i {
+    padding: 5%;
+    margin: 0 auto;
+    font-size: 46px;
+  }
