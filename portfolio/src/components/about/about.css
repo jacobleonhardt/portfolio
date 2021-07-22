@@ -35,7 +35,7 @@
 
 #about img {
     margin: 0 auto;
-    max-width: 350px;
+    max-width: 90%;
     border: 2px solid #fff;
     border-radius: 50%;
 }
@@ -69,7 +69,12 @@
 
     #about .left,  #about .right {
         display: block;
-        width: 100%;
+        width: 90%;
         padding: 2%;
+        margin: 0 auto;
+    }
+
+    .full h3 {
+        margin-top: 4%;
     }
   }

@@ -6,7 +6,7 @@ body {
 }
 
 #content {
-  width: 100%;
+  max-width: 100%;
   padding: 0;
 }
 
@@ -50,10 +50,10 @@ p {
   font-size: 62px;
   color: #fff;
   background: transparent;
-  animation: fadeInLeft 5s;
+  animation: fadeInDown 5s;
 }
 
-@keyframes fadeInLeft {
+@keyframes fadeInDown {
   0% {
     opacity: 0;
     transform: translateY(-20px);
@@ -84,16 +84,16 @@ button, a.button {
 }
 
 button:hover, a.button:hover {
-  background: #045175;
+  background: #00315C;
   transition: .75s;
 }
 
 button.alt, a.button.alt {
-  background: #00315C;
+  background: #045175;
 }
 
 button.alt:hover, a.button.alt:hover {
-  background: #921210;
+  background: #F35D06;
 }
 
 /* Responsive Design */

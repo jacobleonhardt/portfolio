@@ -1,0 +1,60 @@
+#mobile {
+    position: fixed;
+    display: block;
+    color: #fff;
+    padding: 1.5%;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,.7));
+}
+
+.md.hydrated {
+    font-size: 2em;
+}
+
+#mobile a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2%;
+    font-size: 1.25em;
+}
+
+#mobile-menu > a {
+    display: block;
+    text-align: left;
+    transition: 1s;
+    animation: fadeInLeft 3s;
+}
+
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+/* #mobile-menu > a:nth-child(1) {
+    animation-delay: 0.0s;
+}
+
+#mobile-menu > a:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+#mobile-menu > a:nth-child(3) {
+    animation-delay: 1.0s;
+}
+
+#mobile-menu > a:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+#mobile-menu > a:nth-child(5) {
+    animation-delay: 2.0s;
+}
+
+#mobile-menu > a:nth-child(6) {
+    animation-delay: 2.5s;
+} */

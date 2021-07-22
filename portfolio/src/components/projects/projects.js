@@ -10,9 +10,9 @@ const Projects = () => {
         <div id="projects">
             <div id="project-cards">
                 <Pieflix />
-                <Robinhoop />
-                <VerticleExplorer />
                 <AskMeeple />
+                <VerticleExplorer />
+                <Robinhoop />
             </div>
         </div>
     )
