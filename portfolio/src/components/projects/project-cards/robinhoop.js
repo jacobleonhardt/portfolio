@@ -6,7 +6,7 @@ import './project-cards.css'
 const Robinhoop = () => {
     return (
         <div id="robinhoop" className="project">
-            <img src={robinhoopLogo} alt="" className="project-logo"/>
+            <img src={robinhoopLogo} alt="Robinhoop application logo" className="project-logo"/>
             <p>Robinhoop is a full-stack clone of the Robinhood Investment app
                 focused on investments in NBA teams. The app joins the concepts
                 of stock investing with fantasy basketball. I worked with a
@@ -16,7 +16,7 @@ const Robinhoop = () => {
                 initially suspected. While I'm not a basketball fan, and so it was a
                 good experience to work on a project that wasn't my cup of tea,
                 but that others could get in to.</p>
-            <a href="https://robinhoop.herokuapp.com/" className="button">Checkout Robinhoop</a>
+            <a href="https://robinhoop.herokuapp.com/" target="_blank" className="button">Checkout Robinhoop</a>
         </div>
     )
 }

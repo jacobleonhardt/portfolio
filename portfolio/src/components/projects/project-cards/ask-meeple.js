@@ -1,19 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import askMeepleLogo from '../../../photos/askMeeple-logo_forPortfolio.png'
 import './project-cards.css'
 
 const AskMeeple = () => {
     return (
         <div id="ask-meeple" className="project">
-            <div className="left">
-                <img src={askMeepleLogo} alt="" className="project-logo"/>
-            </div>
-            <div classname="right">
-                <h4>Ask Meeple</h4>
-                <p>Ask Meeple is a Quora clone application geared towards board game enthusiasts.</p>
-                <a href="https://ask-meeple.herokuapp.com/">Checkout Ask Meeple</a>
-            </div>
+            <img src={askMeepleLogo} alt="Ask Meeple application logo" className="project-logo"/>
+            <p>Ask Meeple is a Quora clone application geared towards board game
+                enthusiasts. Ask Meeple was built as a group project where I got
+                to work with two other fantastic developers. I headed up the
+                frontend design on the project. For this one we used Pug as our
+                structure code, and custom CSS for design.</p>
+            <a href="https://ask-meeple.herokuapp.com/" target="_blank" className="button">Checkout Ask Meeple</a>
         </div>
     )
 }
