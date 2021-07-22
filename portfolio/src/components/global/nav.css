@@ -3,15 +3,20 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
 #navbar a {
-    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 2%;
 }
 
 #navbar a:hover, #navbar a:active {
+    color: #F35D06;
+    cursor: pointer;
+}
+
+a.active {
     color: #F35D06;
 }

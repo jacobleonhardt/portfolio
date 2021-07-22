@@ -27,14 +27,14 @@
 }
 
 #vertical-explorer {
-    background: linear-gradient(rgba(146, 18, 16,.75), rgba(146, 18, 16,.75)),
+    background: linear-gradient(rgba(146, 18, 16,.8), rgba(146, 18, 16,.8)),
                                 url('../../../photos/verticalExplorer-homepage.jpg');
     background-size: cover;
     background-position: top center;
 }
 
 #ask-meeple {
-    background: linear-gradient(rgba(4, 81, 117,.8), rgba(4, 81, 117,.8)),
+    background: linear-gradient(rgba(4, 81, 117,.9), rgba(4, 81, 117,.9)),
                                 url('../../../photos/askMeeple-homepage.jpg');
     background-size: cover;
     background-position: center center;

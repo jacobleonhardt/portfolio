@@ -1,13 +1,12 @@
 import React from 'react'
-import * as Scroll from 'react-scroll';
-import { Link, scroll, scrollSpy, scroller } from 'react-scroll'
-// import { NavLink } from 'react-router-dom'
+import * as Scoll from 'react-scroll';
+import { Link, scroller } from 'react-scroll'
 import './nav.css'
 
 const Nav = () => {
 
     scroller.scrollTo('scroll-container', {
-        duration: 800,
+        duration: 1000,
         delay: 0,
         smooth: 'easeInOutQuart'
     })

@@ -5,6 +5,11 @@ body {
     sans-serif;
 }
 
+#content {
+  width: 100%;
+  padding: 0;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;

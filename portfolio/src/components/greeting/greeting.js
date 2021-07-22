@@ -1,4 +1,6 @@
 import React from 'react'
+import * as Scroll from 'react-scroll'
+import { Link } from 'react-scroll'
 import leonhardtLogo from '../../photos/jleonhardt-portfolio-logo.png';
 import './greeting.css'
 
@@ -9,7 +11,7 @@ const Greeting = () => {
             <h1>Jacob Leonhardt</h1>
             <h2>A Creative Full-Stack Developer</h2>
             <div className="space med"></div>
-            <a id='arrow' className="icon-link" href="/#about"><ion-icon name="code-download-outline"></ion-icon></a>
+            <Link id='arrow' className="icon-link" to="about" smooth={true} spy={true} duration={800} activeClass="active"><ion-icon name="code-download-outline"></ion-icon></Link>
         </div>
     )
 }
