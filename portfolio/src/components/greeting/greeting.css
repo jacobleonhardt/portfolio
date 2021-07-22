@@ -19,3 +19,10 @@
 #arrow ion-icon:hover {
     cursor: pointer;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #greeting {
+        
+    }
+  }

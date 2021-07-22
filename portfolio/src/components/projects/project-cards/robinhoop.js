@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import robinhoopLogo from '../../../photos/robinhoop-logo_forPortfolio.png'
 import './project-cards.css'
 

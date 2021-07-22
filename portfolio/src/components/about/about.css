@@ -6,8 +6,8 @@
     color: #fff;
     background: linear-gradient(270deg, #921210, #045175);
     width: 100%;
-    height: 100ch;
-    padding: 2% 0;
+    height: auto;
+    padding: 4% 0;
     margin: 0 auto;
     text-align: center;
 }
@@ -58,3 +58,18 @@
     margin: 0 auto;
     font-size: 46px;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #about {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    #about .left,  #about .right {
+        display: block;
+        width: 100%;
+        padding: 2%;
+    }
+  }

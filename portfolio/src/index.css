@@ -95,3 +95,10 @@ button.alt, a.button.alt {
 button.alt:hover, a.button.alt:hover {
   background: #921210;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  h2, h3 {
+    font-size: 1.5em;
+  }
+}
