@@ -10,6 +10,11 @@ body {
   padding: 0;
 }
 
+.full {
+  display: block;
+  width: 100%;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -65,14 +70,6 @@ p {
 a.icon-link:hover {
   transition: .5s;
   background-color: #F35D06;
-}
-
-.blue {
-  color: #00315C;
-}
-
-.orange {
-  color: #F35D06;
 }
 
 button, a.button {

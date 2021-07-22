@@ -18,7 +18,7 @@ const Nav = () => {
             <Link to="robinhoop" smooth={true} spy={true} duration={800} activeClass="active">Robinhoop</Link>
             <Link to="vertical-explorer" smooth={true} spy={true} duration={800} activeClass="active">Verticle Explorer</Link>
             <Link to="ask-meeple" smooth={true} spy={true} duration={800} activeClass="active">Ask Meeple</Link>
-            <Link to="contact" smooth={true} spy={true} duration={800} activeClass="active">Get in Touch</Link>
+            <Link to="contact" smooth={true} spy={true} duration={800} activeClass="active">Contact</Link>
         </div>
     )
 }

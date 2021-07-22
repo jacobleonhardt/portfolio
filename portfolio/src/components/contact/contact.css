@@ -1,0 +1,26 @@
+#contact {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+    padding: 5%;
+    background: linear-gradient(to left,#921210, #F35D06);
+}
+
+#contact h2 {
+    margin-bottom: 2%;
+}
+
+#contact a{
+    margin: 8px;
+    font-size: 46px;
+    color: #fff;
+}
+
+#contact a:hover{
+    transition: .5s;
+    color: #045175;
+}

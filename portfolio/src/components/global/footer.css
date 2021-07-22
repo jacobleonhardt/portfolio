@@ -1,0 +1,10 @@
+#footer {
+    background: linear-gradient(to left,#921210, #F35D06);
+    color: #fff;
+}
+
+#footer p {
+    text-align: center;
+    padding: 1% 0;
+    margin: 0 auto;
+}
