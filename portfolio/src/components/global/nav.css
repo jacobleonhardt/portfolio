@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     color: #fff;
+    padding: 1.5%;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 #navbar a {

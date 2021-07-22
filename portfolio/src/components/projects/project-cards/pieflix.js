@@ -15,7 +15,7 @@ const Pieflix = () => {
                  frontend. One thing I've quite proud of is that the end result
                  of the project almost perfectly matches the wireframe. The
                  project was a blast to build!</p>
-            <a href="https://pieflix.herokuapp.com/" className="button alt">Checkout pieflix</a>
+            <a href="https://pieflix.herokuapp.com/" target="_blank" className="button alt">Checkout pieflix</a>
         </div>
     )
 }

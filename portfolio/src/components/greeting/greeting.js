@@ -10,8 +10,7 @@ const Greeting = () => {
             <img src={leonhardtLogo} className="logo" alt="Jacob Leonhardt logo" />
             <h1>Jacob Leonhardt</h1>
             <h2>A Creative Full-Stack Developer</h2>
-            <div className="space med"></div>
-            <Link id='arrow' className="icon-link" to="about" smooth={true} spy={true} duration={800} activeClass="active"><ion-icon name="code-download-outline"></ion-icon></Link>
+            <Link id='arrow' className="icon-link" to="about" smooth={true} spy={true} duration={800} activeClass="active"><ion-icon name="chevron-down-outline"></ion-icon></Link>
         </div>
     )
 }

@@ -40,10 +40,6 @@ p {
   text-align: left;
 }
 
-.space.med {
-  padding: 25px;
-}
-
 #arrow.icon-link {
   transition: .5s;
   width: 50px;
@@ -74,10 +70,12 @@ a.icon-link:hover {
 }
 
 button, a.button {
+  cursor: pointer;
   transition: .75s;
   padding: 10px 30px;
   border: 0px;
   border-radius: 30px;
+  margin-right: 10px;
   color: #fff;
   background: #F35D06;
   text-decoration: none;

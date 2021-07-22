@@ -1,4 +1,6 @@
 import React from 'react'
+import * as Scroll from 'react-scroll'
+import { Link } from 'react-scroll'
 import headshot from '../../photos/profile-pic.jpg'
 import './about.css'
 
@@ -20,7 +22,7 @@ const About = () => {
                 <p>I'm a Christian and nerd who drinks a lot of coffee. Some of my favorite things are British Literature, Rend Collective, Yacht Rock, Nintendo, and sarcasm.</p>
                 <span>
                     <button onClick={viewResume}>Resume</button>
-                    <button>Contact</button>
+                    <Link to="contact" className="button" smooth={true} spy={true} duration={800}>Contact</Link>
                 </span>
             </div>
             <div className="full">
