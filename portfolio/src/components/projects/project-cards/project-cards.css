@@ -14,3 +14,10 @@
     background-size: cover;
     background-position: center center;
 }
+
+#robinhoop {
+    background: linear-gradient(rgba(0,49,92,.9), rgba(0,49,92,.9)),
+                                url('../../../photos/robinhoop-homepage.jpg');
+    background-size: cover;
+    background-position: center center;
+}
