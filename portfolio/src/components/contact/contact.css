@@ -28,10 +28,6 @@
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    /* #contact {
-        padding: 25% 0 10%;
-    } */
-
     #contact a {
         display: block;
     }

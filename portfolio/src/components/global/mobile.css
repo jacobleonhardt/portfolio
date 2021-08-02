@@ -2,27 +2,31 @@
     position: fixed;
     display: block;
     color: #fff;
-    padding: 1.5%;
     z-index: 9;
 }
 
 #mobile.open {
-    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,.7));
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 30px;
     animation: backgroundFadeIn 2s;
+    background: rgba(0,0,0,.9);
+    padding: 1.5% 1.9% 1% 1%;
 }
 
-.closed {
+#mobile.closed {
+    border-bottom-right-radius: 15px;
+    animation: backgroundFadeIn 2s;
+    background: rgba(0,0,0,.9);
+    padding: 1.5% 1.9% 1% 1%;
 }
 
 .md.hydrated {
     font-size: 2em;
 }
 
-#mobile a {
+#mobile-menu a {
     text-decoration: none;
     text-transform: uppercase;
-    margin: 2%;
+    margin: 2% 4%;
     font-size: 1.25em;
 }
 
@@ -39,7 +43,7 @@
     }
     100% {
         opacity: 1;
-        background-color: #000;
+        background: rgba(0,0,0,.9);
     }
 }
 

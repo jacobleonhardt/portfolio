@@ -104,7 +104,7 @@ button.alt:hover, a.button.alt:hover {
 
   button, a.button {
     display: block;
-    margin-top: 2%;
+    margin: 2% auto;
   }
 
 }

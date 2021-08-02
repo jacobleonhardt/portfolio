@@ -27,6 +27,7 @@
 .full {
     display: block;
     width: 100%;
+    padding-top: 4%;
 }
 
 .left span {
@@ -72,9 +73,5 @@
         width: 90%;
         padding: 2%;
         margin: 0 auto;
-    }
-
-    .full h3 {
-        margin-top: 4%;
     }
   }
