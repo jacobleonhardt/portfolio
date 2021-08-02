@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Nav from './components/global/nav.js'
 import Mobile from './components/global/mobile.js'
@@ -11,9 +11,25 @@ import './index.css';
 
 function App() {
 
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    reportWindowSize()
+  }, [])
+
+  const reportWindowSize = () => {
+    if (window.innerWidth <= 768) {
+        setIsMobile(true)
+    } else {
+      setIsMobile(false)
+    }
+  }
+
+  window.addEventListener('resize', reportWindowSize);
+
   return (
     <BrowserRouter>
-      {window.innerWidth > 768 ? <Nav /> : <Mobile />}
+      {isMobile ? <Mobile /> : <Nav />}
       <div id="content">
         <Greeting />
         <About />

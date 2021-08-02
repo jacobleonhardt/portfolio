@@ -12,6 +12,7 @@ const AskMeeple = () => {
                 frontend design on the project. For this one we used Pug as our
                 structure code, and custom CSS for design.</p>
             <a href="https://ask-meeple.herokuapp.com/" target="_blank" className="button">Checkout Ask Meeple</a>
+            <a href="https://github.com/TranquilTort/Ask-Meeple" target="_blank" className="button">GitHub Repo</a>
         </div>
     )
 }

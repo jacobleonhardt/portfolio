@@ -13,7 +13,8 @@ const Projects = () => {
                 Sequelize in the backend and, of course, React on the frontend.</p>
                 <p>The app is currently still be constructed. But feel free to
                     check it out anyways!</p>
-            <a href="https://vertical-explorer.herokuapp.com/" target="_blank" className="button alt">Checkout Vertical Explore</a>
+            <a href="https://vertical-explorer.herokuapp.com/" target="_blank" className="button alt">Checkout Vertical Explorer</a>
+            <a href="https://github.com/jacobleonhardt/vertical_explorer" target="_blank" className="button alt">GitHub Repo</a>
         </div>
     )
 }

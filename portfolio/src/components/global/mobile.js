@@ -6,6 +6,7 @@ import './mobile.css'
 const Mobile = () => {
 
     const [isOpen, setIsOpen] = useState(false)
+    const content = document.getElementById('content')
 
     scroller.scrollTo('scroll-container', {
         duration: 1000,
@@ -13,12 +14,17 @@ const Mobile = () => {
         smooth: 'easeInOutQuart'
     })
 
+
     const toggleMobile = () => {
         setIsOpen(!isOpen);
     }
 
+    content.addEventListener('click', () => {
+        setIsOpen(false)
+    });
+
     return (
-        <div id="mobile">
+        <div id="mobile" className={ isOpen ? "open" : "closed"}>
             {isOpen ? <a onClick={toggleMobile} className="mobile-toggle"><ion-icon name="close-outline"></ion-icon></a> :
                     <a onClick={toggleMobile} className="mobile-toggle"><ion-icon name="grid-outline"></ion-icon></a>}
             {isOpen ?

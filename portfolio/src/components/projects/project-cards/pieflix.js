@@ -16,6 +16,7 @@ const Pieflix = () => {
                  of the project almost perfectly matches the wireframe. The
                  project was a blast to build!</p>
             <a href="https://pieflix.herokuapp.com/" target="_blank" className="button alt">Checkout pieflix</a>
+            <a href="https://github.com/jacobleonhardt/pizza_movie_pairing_app" target="_blank" className="button alt">GitHub Repo</a>
         </div>
     )
 }
