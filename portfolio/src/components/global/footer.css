@@ -8,3 +8,10 @@
     padding: 1% 0;
     margin: 0 auto;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #footer p {
+        padding: 1% 0 2%;
+    }
+  }

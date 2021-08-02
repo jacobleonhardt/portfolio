@@ -4,9 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     text-align: center;
-    min-height: 300px;
-    padding: 5%;
+    /* min-height: 300px; */
+    /* padding: 5%; */
     background: linear-gradient(to left,#921210, #F35D06);
 }
 
@@ -24,3 +25,14 @@
     transition: .5s;
     color: #045175;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* #contact {
+        padding: 25% 0 10%;
+    } */
+
+    #contact a {
+        display: block;
+    }
+  }
